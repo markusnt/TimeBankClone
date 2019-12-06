@@ -29,10 +29,8 @@ export function* signIn({ payload }) {
 
 }
 
-export function* signOut(){
-  api.defaults.headers.Authorization = null
+export function signOut(){
   history.push('/')
-  toast.error('Usuario Deslogado!');
 }
 
 export function* register({ payload }) {

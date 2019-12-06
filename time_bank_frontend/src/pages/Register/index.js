@@ -29,6 +29,7 @@ export default function Register() {
         <Input name="name" type="text" placeholder="Nome completo" />
         <Input name="pis" type="text" placeholder="PIS" />
         <Input name="email" type="email" placeholder="E-mail" />
+        <Input name="hour" type="number" placeholder="Jornada de Trabalho" />
 
         <button type="submit">
           {loading ? 'Carregando ... ' : 'Acessar'}
