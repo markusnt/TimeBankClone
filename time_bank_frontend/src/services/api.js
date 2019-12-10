@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const api = axios.create({
-  baseURL: 'http://localhost:1337',
+  baseURL: 'http://192.168.43.115:1337',
 })
 
 export const apiDATE = axios.create({
