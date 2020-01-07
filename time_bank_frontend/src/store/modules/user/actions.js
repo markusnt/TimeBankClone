@@ -18,9 +18,9 @@ export function updateUserFailure() {
   };
 }
 
-// export function registerRecord(localization, date, user_id, enterprise_id, pointtype_id) {
-//   return {
-//       type: '@user/REGISTER_RECORD',
-//       payload: { date, user_id, pointtype_id },
-//   };
-// }
+export function registerRecord(localization, date, user_id, enterprise_id, pointtype_id) {
+  return {
+      type: '@user/REGISTER_RECORD',
+      payload: { localization, date, enterprise_id, user_id, pointtype_id },
+  };
+}
